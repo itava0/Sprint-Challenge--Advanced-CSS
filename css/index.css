@@ -160,6 +160,33 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  margin-top: 20px;
+  padding: 20px 0;
+  border: 1px solid #F1F1F1;
+  background-color: #F6F6F6;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.navbar h1 {
+  font-size: 4rem;
+  font-family: #454A59;
+}
+.navbar .links {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .links a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -175,6 +202,11 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 .home .space-images {
   display: flex;
