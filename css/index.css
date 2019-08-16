@@ -212,6 +212,8 @@ footer {
 .home .intro img {
   width: 100%;
   height: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 .home .space-images {
@@ -222,6 +224,8 @@ footer {
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   height: 100%;
 }
@@ -249,6 +253,7 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .home .walk {
@@ -306,6 +311,8 @@ footer {
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 @media (max-width: 500px) {

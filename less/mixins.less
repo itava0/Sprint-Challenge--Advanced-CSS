@@ -5,6 +5,14 @@
   justify-content: @justify;
   align-items: @align;
 }
+
+// Border Mixins
+.border-radius (@radius: 10px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+}
+
 //btn Mixins
 .custom-btn(@width:100px, @font-color:@wild-sand){
   display: block;
