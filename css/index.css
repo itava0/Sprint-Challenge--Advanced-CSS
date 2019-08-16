@@ -166,9 +166,9 @@ p {
   border: 1px solid #F1F1F1;
   background-color: #F6F6F6;
   display: flex;
-  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  flex-flow: column wrap;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -179,6 +179,7 @@ p {
 .navbar .links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar .links a {
   display: inline-block;
@@ -243,6 +244,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: #22283A;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  color: #F6F6F6;
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #36005c;
+  color: #81848E;
 }
 .home .walk .walk-img {
   width: 46%;

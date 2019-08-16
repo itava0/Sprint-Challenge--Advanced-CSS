@@ -1,1 +1,25 @@
 // Mixins Here
+//Navbar Mixins
+.flex(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+//btn Mixins
+.custom-btn(@width:100px, @font-color:@wild-sand){
+  display: block;
+  background-color: @btn-bg-color;
+  cursor: pointer;
+  width: @width;
+  height: 45px;
+  border-radius: 5px;
+  color:@font-color;
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+  
+  &:hover{
+    background-color: spin(saturate(@btn-bg-color, 90%), 50);
+    color: @waterloo;
+  }
+}
