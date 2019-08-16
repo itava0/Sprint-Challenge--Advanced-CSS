@@ -162,7 +162,7 @@ p {
 }
 .navbar {
   margin-top: 20px;
-  padding: 20px 0;
+  padding-top: 20px;
   border: 1px solid #F1F1F1;
   background-color: #F6F6F6;
   display: flex;
